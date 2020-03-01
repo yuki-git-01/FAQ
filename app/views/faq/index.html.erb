@@ -1,1 +1,7 @@
-<p>Hello World!</p>
+<p>よくあるご質問</p>
+<p>製品から検索</p>
+
+<% @faqs.each do |faq| %>
+  <p><%= faq.question %></p>
+  <p><%= faq.answer %></p>
+<% end %>
