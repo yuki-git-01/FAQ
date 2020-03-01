@@ -5,10 +5,10 @@
 <% end %>
 
 <p>製品から検索</p>
-  <%= link_to '製品情報管理システム', "/faq/製品情報管理システム", method: :get %>
-  <%= link_to 'SolidWorks', "/faq/SolidWorks", method: :get %>
 
-<p>新着FAQ</p>
+ 
+
+
 <% @faqs.each do |faq| %>
   <p><%= faq.question %></p>
   <p><%= faq.answer %></p>
